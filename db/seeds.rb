@@ -9,6 +9,6 @@
 Restaurant.destroy_all
 
 10.times do
-  restaurant = Restaurant.new(name: Faker::Restaurant.name, address: Faker::Address.street_address, phone_number: Faker::PhoneNumber, category: ["chinese", "italian", "japanese", "french", "belgian"].sample )
+  restaurant = Restaurant.new(name: Faker::Restaurant.name, address: Faker::Address.street_address, phone_number: Faker::PhoneNumber.phone_number, category: ["chinese", "italian", "japanese", "french", "belgian"].sample )
   restaurant.save
 end

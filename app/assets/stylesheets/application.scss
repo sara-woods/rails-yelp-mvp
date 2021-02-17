@@ -11,3 +11,42 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+.nav-item {
+  padding-right: 8px;
+}
+
+.btn {
+  margin-bottom: 8px;
+}
+
+a:hover {
+  text-decoration: none;
+  color:rgb(212, 117, 146);
+}
+
+.btn-primary {
+  background-color: rgb(185, 43, 86);
+  border: none;
+}
+
+.btn-primary:hover  {
+  background-color:rgb(212, 117, 146);
+}
+
+h1, a {
+  color:  rgb(185, 43, 86);
+}
+
+.container {
+  margin: 24px;
+}
+
+ul  {
+  list-style: none;
+  padding: 0;
+}
+
+p  {
+  margin-bottom:8px;
+}
